@@ -34,7 +34,6 @@ public class ToDoService {
         ToDo updateObj = repo.save(todo);
 
         return getToDoItemById(updateObj.getId()) != null;
-//       return  (getToDoItemById(updateObj.getId()) != null)? true: false;
     }
 
     public boolean deleteToDoItem(Long id){
