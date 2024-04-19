@@ -45,7 +45,6 @@
 
 <div class="container">
 
-	<!-- <img src="https://i.pinimg.com/736x/ac/fb/c5/acfbc50f1cda1e6296161d9709d64998.jpg" alt="Frog-Logo" width="50px">  -->
     <h1 class="p-3">ToDo Item List</h1>
 
     <form:form>
