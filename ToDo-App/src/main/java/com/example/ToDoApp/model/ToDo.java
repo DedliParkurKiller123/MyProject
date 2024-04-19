@@ -16,7 +16,7 @@ public class ToDo {
     @Nonnull
     private Long id;
     
-    @Column(name="Title")
+    @Column(name="Title_of_action")
     @Nonnull
     private String title;
     
@@ -25,7 +25,7 @@ public class ToDo {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
     
-    @Column(name="Status")
+    @Column(name="Status_of_action")
     @Nonnull
     private String status;
 
