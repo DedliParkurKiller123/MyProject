@@ -18,6 +18,7 @@
     
     	#buttonAdd{
     		transition: 0.1s ease;
+    		margin-bottom: 2%;
     	}
     	#buttonAdd:hover{
     		transform: scale(1.01);		
@@ -35,7 +36,6 @@
 		}
         body{
         	background: linear-gradient(90deg, #FFFFFF, #ADD8E6);
-        	background-repeat: no-repeat;
         	background-size: cover;
         }
 

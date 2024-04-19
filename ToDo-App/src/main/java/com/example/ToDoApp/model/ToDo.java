@@ -12,20 +12,20 @@ import java.util.Date;
 @Table (name="todo")
 public class ToDo {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Nonnull
     private Long id;
     
-    @Column
+    @Column(name="Title")
     @Nonnull
     private String title;
     
-    @Column
+    @Column(name="Date")
     @Nonnull
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
     
-    @Column
+    @Column(name="Status")
     @Nonnull
     private String status;
 
